@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:fixedWidth="1280dp"
+    app:fixedHeight="800dp"
+    >
+
+
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:adjustViewBounds="true"
+            android:src="@drawable/background"
+            />
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:background="#F00"/>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="#F00"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#F00"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_gravity="bottom"
+            android:background="#F00"/>
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+
+            android:layout_marginTop="40dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo_page01"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="115dp"
+
+            android:layout_marginTop="260dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_regulacja_cykli"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="410dp"
+
+            android:layout_marginTop="215dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_eliminacja_bolesnych_miesiaczek"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="695dp"
+
+            android:layout_marginTop="190dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_regulacja_bolow_glowy"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="985dp"
+
+            android:layout_marginTop="250dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_poprawa_nastroju"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="255dp"
+
+            android:layout_marginTop="515dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_brak_wplywu_na_mase_ciala"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="560dp"
+
+            android:layout_marginTop="460dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_regularne_krwawienie_z_odstawienia"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="885dp"
+
+            android:layout_marginTop="495dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_redukcja_objawow_tradziku"
+            />
+
+        <ImageView
+            android:id="@+id/img_motyl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="right|top"
+            android:layout_marginTop="45dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/img_motyl"
+            />
+
+</pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout>
