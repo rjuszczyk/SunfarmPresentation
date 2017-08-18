@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="footer_text_size">12sp</dimen>
+    <dimen name="button_text_size">23sp</dimen>
+    <dimen name="butto_right_margin">18dp</dimen>
+    <dimen name="button_bottom_margin">33dp</dimen>
+</resources>

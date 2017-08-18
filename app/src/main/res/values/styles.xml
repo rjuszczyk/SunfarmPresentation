@@ -8,4 +8,27 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+    <style name="ColoredButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:background">@drawable/my_abc_btn_colored_material</item>
+    </style>
+
+    <style name="RoundedButtonTheme45" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">@style/ColoredButton</item>
+        <item name="buttonRadius">45dp</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="RedVioletButton" parent="@style/RoundedButtonTheme45">
+        <item name="buttonColor">@color/redViolet</item>
+    </style>
+
+    <style name="RightBottomButton">
+        <item name="android:layout_gravity">right|bottom</item>
+        <item name="android:layout_marginRight">@dimen/butto_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
+        <item name="android:minWidth">160dp</item>
+    </style>
+
 </resources>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    app:fixedWidth="1280dp"
+    app:fixedHeight="800dp"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:adjustViewBounds="true"
+        android:src="@drawable/background"
+        />
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:background="#F00"/>
+
+    <View
+        android:layout_width="5dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:background="#F00"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#F00"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_gravity="bottom"
+        android:background="#F00"/>
+
+    <ImageView
+        android:id="@+id/img_motyl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="right|top"
+        android:layout_marginTop="45dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/img_motyl"
+        />
+
+    <ImageView
+        android:id="@+id/page3_chart_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="108dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/page3_chart_left"
+        />
+
+
+    <ImageView
+        android:id="@+id/page3_chart_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="697dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/page3_chart_right"
+        />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/logo_page03"
+        />
+
+    <ImageView
+        android:id="@+id/page3_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="152dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        android:src="@drawable/page3_header"
+        />
+
+    <ImageView
+        android:id="@+id/page3_cloud_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="555dp"
+        android:layout_marginLeft="127dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/page3_cloud_left"
+        />
+
+    <ImageView
+        android:id="@+id/page3_cloud_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="555dp"
+        android:layout_marginRight="127dp"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true"
+        android:src="@drawable/page3_cloud_right"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/p3_octan_chlormadinonu"
+            android:textSize="@dimen/footer_text_size"
+
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/p3_footer1"
+            android:textSize="@dimen/footer_text_size"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:text="Test"
+
+        style="@style/RightBottomButton"
+        android:theme="@style/RedVioletButton"
+        />
+</pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout>

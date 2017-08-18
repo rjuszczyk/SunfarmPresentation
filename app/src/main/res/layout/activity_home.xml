@@ -142,4 +142,14 @@
             android:src="@drawable/img_motyl"
             />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oral_contraceptives"
+            android:textSize="@dimen/footer_text_size"
+
+            android:layout_gravity="bottom|left"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            />
 </pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout>

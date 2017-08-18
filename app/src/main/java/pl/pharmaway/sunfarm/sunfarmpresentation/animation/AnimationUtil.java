@@ -18,4 +18,28 @@ public class AnimationUtil {
             view.animate().alpha(0).setStartDelay(delay).setDuration(duration).start();
         }
     }
+
+    public static void animateInFromLeft(View view, long delay, long duration) {
+        view.setAlpha(0);
+        float xOffset = view.getResources().getDisplayMetrics().density * -1024;
+        view.setTranslationX(xOffset);
+
+        view.animate()
+                .alpha(1)
+                .translationX(0)
+                .setStartDelay(delay)
+                .setDuration(duration).start();
+    }
+
+    public static void animateInFromRight(View view, long delay, long duration) {
+        view.setAlpha(0);
+        float xOffset = view.getResources().getDisplayMetrics().density * 1024;
+        view.setTranslationX(xOffset);
+
+        view.animate()
+                .alpha(1)
+                .translationX(0)
+                .setStartDelay(delay)
+                .setDuration(duration).start();
+    }
 }

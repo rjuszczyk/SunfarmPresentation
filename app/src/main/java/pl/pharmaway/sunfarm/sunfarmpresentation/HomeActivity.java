@@ -1,18 +1,21 @@
 package pl.pharmaway.sunfarm.sunfarmpresentation;
 
+import android.content.Context;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.ViewGroup;
-import android.view.animation.AccelerateDecelerateInterpolator;
-import android.view.animation.Interpolator;
 
 import pl.pharmaway.sunfarm.sunfarmpresentation.animation.AnimationUtil;
-import pl.pharmaway.sunfarm.sunfarmpresentation.animation.DoWhenLayouted;
+import pl.pharmaway.sunfarm.sunfarmpresentation.base.MotylActivity;
 import pl.pharmaway.sunfarm.sunfarmpresentation.click.FirstAnimateClickListener;
 
-public class MainActivity extends AppCompatActivity {
+public class HomeActivity extends MotylActivity {
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, HomeActivity.class);
+        context.startActivity(intent);
+    }
+
     final long animationLength = 100;
     final long animationDuration = 300;
 
@@ -23,12 +26,15 @@ public class MainActivity extends AppCompatActivity {
     View puzzel_5;
     View puzzel_6;
     View puzzel_7;
-    View img_motyl;
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_home;
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
 
         this.puzzel_1 = findViewById(R.id.puzzel_1);
         this.puzzel_2 = findViewById(R.id.puzzel_2);
@@ -37,20 +43,6 @@ public class MainActivity extends AppCompatActivity {
         this.puzzel_5 = findViewById(R.id.puzzel_5);
         this.puzzel_6 = findViewById(R.id.puzzel_6);
         this.puzzel_7 = findViewById(R.id.puzzel_7);
-        this.img_motyl = findViewById(R.id.img_motyl);
-
-
-
-
-
-        DoWhenLayouted.doWhenLayouted(img_motyl, new DoWhenLayouted.Action() {
-            @Override
-            public void doOnView(View view) {
-                img_motyl.setPivotY(img_motyl.getHeight());
-                img_motyl.setPivotX(img_motyl.getWidth());
-                animateMotylUp();
-            }
-        });
 
         FirstAnimateClickListener firstAnimateClickListener = new FirstAnimateClickListener(new View.OnClickListener() {
             @Override
@@ -65,8 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 AnimationUtil.animateAlphaOut(puzzel_7, 7 * animationLength, animationDuration, new Runnable() {
                     @Override
                     public void run() {
-                        Intent intent = new Intent(MainActivity.this, MainActivity.class);
-                        startActivity(intent);
+                        RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.start(HomeActivity.this);
                     }
                 });
             }
@@ -91,35 +82,5 @@ public class MainActivity extends AppCompatActivity {
         AnimationUtil.animateAlphaIn(this.puzzel_5, 5 * animationLength, animationDuration);
         AnimationUtil.animateAlphaIn(this.puzzel_6, 6 * animationLength, animationDuration);
         AnimationUtil.animateAlphaIn(this.puzzel_7, 7 * animationLength, animationDuration);
-    }
-
-    private void animateMotylUp() {
-        img_motyl
-                .animate()
-                .rotationX(5)
-                .rotation(5)
-                .setDuration(1000)
-                .setInterpolator(new AccelerateDecelerateInterpolator())
-                .withEndAction(new Runnable() {
-                    @Override
-                    public void run() {
-                        animateMotylDown();
-                    }
-                }).start();
-    }
-
-    private void animateMotylDown() {
-        img_motyl
-                .animate()
-                .rotationX(-5)
-                .rotation(-5)
-                .setDuration(1000)
-                .setInterpolator(new AccelerateDecelerateInterpolator())
-                .withEndAction(new Runnable() {
-                    @Override
-                    public void run() {
-                        animateMotylUp();
-                    }
-                }).start();
     }
 }

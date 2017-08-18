@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">SunfarmPresentation</string>
+    <string name="oral_contraceptives">* OC - Doustna antykoncepcja (oral contraceptives)</string>
+    <string name="octan_chlormadinonu">*CMA - Octan chlormadinonu, EE - Ethynyloestriadiol</string>
+    
+    <string name="p2_octan_chlormadinonu">@string/octan_chlormadinonu</string>
+    <string name="p2_oral_contraceptives">** OC - doustna antykoncpecja</string>
+    <string name="p2_footer1">Schramm G, Heckes B. Switching hormonal contraceptives to a chlormadinone acetate-containing oral contraceptive. The Contraceptive Switch Study. Contraception. 2007 Aug;76(2):84-90</string>
+    <string name="p2_footer2">Schramm G, Steffens D. Contraceptive efficacy and tolerability of chlormadinone acetate 2mg/ethinylestradiol 0.03mg (Belara®). Results of a post-marketing surveillance study. Clin Drug Invest.</string>
+
+    <string name="p3_octan_chlormadinonu">@string/octan_chlormadinonu</string>
+    <string name="p3_footer1">Johannes C. Huber, Marie-Luise S. Heskamp and Georg A.K. Schramm, Effect of an Oral Contraceptive with Chlormadinone Acetate on Depressive Mood Analysis of Data from Four Observational Studies.</string>
+
+    <string name="p4_octan_chlormadinonu">@string/octan_chlormadinonu</string>
+    <string name="p4_footer1">Beier H. M., Beier-Hellwig K. J, Octan chlormadinonu - gestagen podobny do progesteronu o cząstkowym działaniu antyandrogenowym, do stosowania w doustnej antykoncepcji,</string>
+    <string name="p4_footer2">Reproduktionsmed Endokrinol 2004; 1 (2):308-17</string>
+
+
 </resources>

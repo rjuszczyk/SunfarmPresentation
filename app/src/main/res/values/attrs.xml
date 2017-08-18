@@ -4,5 +4,17 @@
         <attr name="fixedWidth" format="dimension" />
         <attr name="fixedHeight" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="Theme">
+        <!-- ============== -->
+        <!-- Generic styles -->
+        <!-- ============== -->
+        <eat-comment />
+
+        <!-- Specifies that a theme has a light background with dark text on top.  -->
+        <attr name="buttonColor" format="color" />
+        <attr name="buttonRadius" format="dimension" />
+        <attr name="buttonDrawableBackground" format="reference" />
+    </declare-styleable>
 </resources>
 
