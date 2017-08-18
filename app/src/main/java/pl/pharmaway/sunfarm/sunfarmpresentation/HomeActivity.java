@@ -46,7 +46,7 @@ public class HomeActivity extends MotylActivity {
 
         FirstAnimateClickListener firstAnimateClickListener = new FirstAnimateClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(final View view) {
 
                 AnimationUtil.animateAlphaOut(puzzel_1, 1 * animationLength, animationDuration);
                 AnimationUtil.animateAlphaOut(puzzel_2, 2 * animationLength, animationDuration);
@@ -57,7 +57,26 @@ public class HomeActivity extends MotylActivity {
                 AnimationUtil.animateAlphaOut(puzzel_7, 7 * animationLength, animationDuration, new Runnable() {
                     @Override
                     public void run() {
-                        RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.start(HomeActivity.this);
+                        switch (view.getId()) {
+                            case R.id.puzzel_1:
+                                RegulacjaCykliActivity.start(HomeActivity.this);
+                                break;
+                            case R.id.puzzel_2:
+                                PozytywnieWplywaNaNastrojActivity.start(HomeActivity.this);
+                                break;
+                            case R.id.puzzel_3:
+                                RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.start(HomeActivity.this);
+                                break;
+                            case R.id.puzzel_4:
+                                break;
+                            case R.id.puzzel_5:
+                                break;
+                            case R.id.puzzel_6:
+                                break;
+                            case R.id.puzzel_7:
+                                break;
+                        }
+
                     }
                 });
             }
