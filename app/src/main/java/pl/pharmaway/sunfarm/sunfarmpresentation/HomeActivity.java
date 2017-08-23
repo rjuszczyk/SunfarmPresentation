@@ -68,12 +68,16 @@ public class HomeActivity extends MotylActivity {
                                 RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_4:
+                                RedukujeKrwawienieZOdstawieniaActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_5:
+                                WNiewielkiSposobWplywaNaMaseCialaActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_6:
+                                ZmniejszaLiczbeIncydentowBoluGlowyActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_7:
+                                RedukujeObjawyTradzikuActivity.start(HomeActivity.this);
                                 break;
                         }
 

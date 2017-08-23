@@ -40,4 +40,8 @@ public class RegulacjaCykliActivity extends MotylActivity {
         AnimationUtil.animateInFromLeft(this.page2_chart, 1 * animationLength, animationDuration);
         AnimationUtil.animateInFromRight(this.page2_cloud, 2 * animationLength, animationDuration);
     }
+
+    protected void goToNext() {
+        MadinetteSummaryActivity.start(this);
+    }
 }

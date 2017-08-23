@@ -42,4 +42,17 @@ public class AnimationUtil {
                 .setStartDelay(delay)
                 .setDuration(duration).start();
     }
+
+    public static void animateInFromCenter(View view, long delay, long duration) {
+        view.setAlpha(0);
+        view.setScaleX(0.5f);
+        view.setScaleY(0.5f);
+
+        view.animate()
+                .alpha(1)
+                .scaleX(1)
+                .scaleY(1)
+                .setStartDelay(delay)
+                .setDuration(duration).start();
+    }
 }

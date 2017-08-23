@@ -46,4 +46,8 @@ public class PozytywnieWplywaNaNastrojActivity extends MotylActivity {
         AnimationUtil.animateInFromRight(this.page3_chart_right, 3 * animationLength, animationDuration);
         AnimationUtil.animateInFromRight(this.page3_cloud_right, 4 * animationLength, animationDuration);
     }
+
+    protected void goToNext() {
+        MadinetteSummaryActivity.start(this);
+    }
 }

@@ -8,15 +8,14 @@ import android.view.View;
 import pl.pharmaway.sunfarm.sunfarmpresentation.animation.AnimationUtil;
 import pl.pharmaway.sunfarm.sunfarmpresentation.base.MotylActivity;
 
-public class RedukujeObjawyBolesnegoMiesiaczkowaniaActivity extends MotylActivity {
+public class MadinetteSummaryActivity extends MotylActivity {
 
     public static void start(Context context) {
-        Intent startIntent = new Intent(context, RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.class);
+        Intent startIntent = new Intent(context, MadinetteSummaryActivity.class);
         context.startActivity(startIntent);
     }
 
-    private View page4_chart;
-    private View page4_cloud;
+    private View madinette_center_img;
 
     final long animationLength = 100;
     final long animationDuration = 300;
@@ -25,24 +24,23 @@ public class RedukujeObjawyBolesnegoMiesiaczkowaniaActivity extends MotylActivit
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        this.page4_chart = findViewById(R.id.page4_chart);
-        this.page4_cloud = findViewById(R.id.page4_cloud);
+        this.madinette_center_img = findViewById(R.id.madinette_center_img);
     }
-
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_reguluje_objawy_bolesnego_miesiaczkowania;
+        return R.layout.activity_madinette_summary;
     }
+
 
     @Override
     protected void onResume() {
         super.onResume();
-        AnimationUtil.animateInFromLeft(this.page4_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page4_cloud, 2 * animationLength, animationDuration);
+        AnimationUtil.animateInFromCenter(this.madinette_center_img, 1 * animationLength, animationDuration);
     }
 
+    @Override
     protected void goToNext() {
-        MadinetteSummaryActivity.start(this);
+        SummaryActivity.start(this);
     }
 }

@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="left"
         android:adjustViewBounds="true"
-        android:src="@drawable/background"
+        android:src="@drawable/background_green"
         />
 
     <View
@@ -44,37 +44,37 @@
         android:background="#F00"/>
 
     <ImageView
-        android:id="@+id/img_motyl"
+        android:id="@+id/img_motyl_green"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_gravity="right|top"
-        android:layout_marginTop="45dp"
+        android:layout_gravity="left|top"
+        android:layout_marginTop="165dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/img_motyl"
+        android:src="@drawable/img_motyl_green"
         />
 
     <ImageView
-        android:id="@+id/page4_chart"
+        android:id="@+id/page8_chart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="205dp"
-        android:layout_marginLeft="109dp"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="190dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/page4_chart"
+        android:src="@drawable/page8_chart"
         />
 
 
     <ImageView
-        android:id="@+id/page4_cloud"
+        android:id="@+id/page8_cloud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:layout_marginTop="230dp"
         android:layout_marginLeft="767dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/page4_cloud"
+        android:src="@drawable/page8_cloud"
         />
 
     <ImageView
@@ -85,7 +85,7 @@
 
         android:layout_marginTop="40dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/logo_page04"
+        android:src="@drawable/logo_page08"
         />
 
 
@@ -127,6 +127,6 @@
         android:text="@string/button_next"
 
         style="@style/RightBottomButton"
-        android:theme="@style/RedVioletButton"
+        android:theme="@style/YellowVioletButton"
         />
 </pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout>

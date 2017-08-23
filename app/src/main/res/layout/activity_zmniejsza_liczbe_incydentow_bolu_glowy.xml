@@ -55,26 +55,26 @@
         />
 
     <ImageView
-        android:id="@+id/page4_chart"
+        android:id="@+id/page7_chart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="205dp"
+        android:layout_marginTop="212dp"
         android:layout_marginLeft="109dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/page4_chart"
+        android:src="@drawable/page7_chart"
         />
 
 
     <ImageView
-        android:id="@+id/page4_cloud"
+        android:id="@+id/page7_cloud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
         android:layout_marginTop="230dp"
         android:layout_marginLeft="767dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/page4_cloud"
+        android:src="@drawable/page7_cloud"
         />
 
     <ImageView
@@ -85,7 +85,7 @@
 
         android:layout_marginTop="40dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/logo_page04"
+        android:src="@drawable/logo_page07"
         />
 
 
@@ -100,7 +100,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p4_octan_chlormadinonu"
+            android:text="@string/p7_octan_chlormadinonu"
             android:textSize="@dimen/footer_text_size"
 
             android:layout_marginBottom="5dp"
@@ -109,15 +109,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p4_footer1"
+            android:text="@string/p7_footer1"
             android:textSize="@dimen/footer_text_size"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p4_footer2"
+            android:text="@string/p7_footer2"
             android:textSize="@dimen/footer_text_size"
             />
+        />
     </LinearLayout>
 
     <Button

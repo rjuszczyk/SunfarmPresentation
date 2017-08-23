@@ -20,6 +20,13 @@
         <activity android:name=".RegulacjaCykliActivity" />
         <activity android:name=".PozytywnieWplywaNaNastrojActivity" />
         <activity android:name=".RedukujeObjawyBolesnegoMiesiaczkowaniaActivity" />
+        <activity android:name=".RedukujeKrwawienieZOdstawieniaActivity" />
+        <activity android:name=".WNiewielkiSposobWplywaNaMaseCialaActivity" />
+        <activity android:name=".ZmniejszaLiczbeIncydentowBoluGlowyActivity" />
+        <activity android:name=".RedukujeObjawyTradzikuActivity" />
+        <activity android:name=".DorinSummaryActivity" />
+        <activity android:name=".MadinetteSummaryActivity" />
+        <activity android:name=".SummaryActivity" />
     </application>
 
 </manifest>

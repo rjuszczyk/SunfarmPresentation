@@ -24,6 +24,10 @@
         <item name="buttonColor">@color/redViolet</item>
     </style>
 
+    <style name="YellowVioletButton" parent="@style/RoundedButtonTheme45">
+        <item name="buttonColor">@color/amber</item>
+    </style>
+
     <style name="RightBottomButton">
         <item name="android:layout_gravity">right|bottom</item>
         <item name="android:layout_marginRight">@dimen/butto_right_margin</item>
@@ -31,4 +35,5 @@
         <item name="android:minWidth">160dp</item>
     </style>
 
+    <color name="amber">#F9BF00</color>
 </resources>

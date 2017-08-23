@@ -8,15 +8,15 @@ import android.view.View;
 import pl.pharmaway.sunfarm.sunfarmpresentation.animation.AnimationUtil;
 import pl.pharmaway.sunfarm.sunfarmpresentation.base.MotylActivity;
 
-public class RedukujeObjawyBolesnegoMiesiaczkowaniaActivity extends MotylActivity {
+public class RedukujeKrwawienieZOdstawieniaActivity extends MotylActivity {
 
     public static void start(Context context) {
-        Intent startIntent = new Intent(context, RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.class);
+        Intent startIntent = new Intent(context, RedukujeKrwawienieZOdstawieniaActivity.class);
         context.startActivity(startIntent);
     }
 
-    private View page4_chart;
-    private View page4_cloud;
+    private View page5_chart;
+    private View page5_cloud;
 
     final long animationLength = 100;
     final long animationDuration = 300;
@@ -25,21 +25,22 @@ public class RedukujeObjawyBolesnegoMiesiaczkowaniaActivity extends MotylActivit
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        this.page4_chart = findViewById(R.id.page4_chart);
-        this.page4_cloud = findViewById(R.id.page4_cloud);
+        this.page5_chart = findViewById(R.id.page5_chart);
+        this.page5_cloud = findViewById(R.id.page5_cloud);
     }
 
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_reguluje_objawy_bolesnego_miesiaczkowania;
+        return R.layout.activity_reguluje_krwawienie_z_odstawienia;
     }
+
 
     @Override
     protected void onResume() {
         super.onResume();
-        AnimationUtil.animateInFromLeft(this.page4_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page4_cloud, 2 * animationLength, animationDuration);
+        AnimationUtil.animateInFromLeft(this.page5_chart, 1 * animationLength, animationDuration);
+        AnimationUtil.animateInFromRight(this.page5_cloud, 2 * animationLength, animationDuration);
     }
 
     protected void goToNext() {

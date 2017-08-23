@@ -10,8 +10,6 @@
     app:fixedHeight="800dp"
     >
 
-
-
     <ImageView
         android:id="@+id/background"
         android:layout_width="wrap_content"
@@ -55,26 +53,14 @@
         />
 
     <ImageView
-        android:id="@+id/page4_chart"
+        android:id="@+id/madinette_center_img"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:layout_marginTop="205dp"
-        android:layout_marginLeft="109dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/page4_chart"
-        />
-
-
-    <ImageView
-        android:id="@+id/page4_cloud"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-
-        android:layout_marginTop="230dp"
-        android:layout_marginLeft="767dp"
-        android:adjustViewBounds="true"
-        android:src="@drawable/page4_cloud"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/madinette_center_img"
         />
 
     <ImageView
@@ -83,42 +69,20 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center|top"
 
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="12dp"
         android:adjustViewBounds="true"
-        android:src="@drawable/logo_page04"
+        android:src="@drawable/logo_madinette"
         />
 
-
-    <LinearLayout
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="bottom|left"
-        android:layout_marginLeft="20dp"
-        android:layout_marginBottom="20dp"
-        >
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p4_octan_chlormadinonu"
-            android:textSize="@dimen/footer_text_size"
+        android:layout_gravity="center|bottom"
 
-            android:layout_marginBottom="5dp"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p4_footer1"
-            android:textSize="@dimen/footer_text_size"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/p4_footer2"
-            android:textSize="@dimen/footer_text_size"
-            />
-    </LinearLayout>
+        android:layout_marginBottom="40dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/madinette_bottom_img"
+        />
 
     <Button
         android:id="@+id/next"
