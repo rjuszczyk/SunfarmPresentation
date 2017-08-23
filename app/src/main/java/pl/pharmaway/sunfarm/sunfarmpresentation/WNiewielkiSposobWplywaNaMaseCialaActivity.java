@@ -18,9 +18,6 @@ public class WNiewielkiSposobWplywaNaMaseCialaActivity extends MotylActivity {
     private View page6_chart;
     private View page6_cloud;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

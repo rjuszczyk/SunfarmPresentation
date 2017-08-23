@@ -18,9 +18,6 @@ public class RegulacjaCykliActivity extends MotylActivity {
     private View page2_chart;
     private View page2_cloud;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -13,11 +13,9 @@ public class HomeActivity extends MotylActivity {
 
     public static void start(Context context) {
         Intent intent = new Intent(context, HomeActivity.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         context.startActivity(intent);
     }
-
-    final long animationLength = 100;
-    final long animationDuration = 300;
 
     View puzzel_1;
     View puzzel_2;
@@ -62,19 +60,19 @@ public class HomeActivity extends MotylActivity {
                                 RegulacjaCykliActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_2:
-                                PozytywnieWplywaNaNastrojActivity.start(HomeActivity.this);
-                                break;
-                            case R.id.puzzel_3:
                                 RedukujeObjawyBolesnegoMiesiaczkowaniaActivity.start(HomeActivity.this);
                                 break;
+                            case R.id.puzzel_3:
+                                ZmniejszaLiczbeIncydentowBoluGlowyActivity.start(HomeActivity.this);
+                                break;
                             case R.id.puzzel_4:
-                                RedukujeKrwawienieZOdstawieniaActivity.start(HomeActivity.this);
+                                PozytywnieWplywaNaNastrojActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_5:
                                 WNiewielkiSposobWplywaNaMaseCialaActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_6:
-                                ZmniejszaLiczbeIncydentowBoluGlowyActivity.start(HomeActivity.this);
+                                RedukujeKrwawienieZOdstawieniaActivity.start(HomeActivity.this);
                                 break;
                             case R.id.puzzel_7:
                                 RedukujeObjawyTradzikuActivity.start(HomeActivity.this);

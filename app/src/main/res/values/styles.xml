@@ -1,11 +1,12 @@
 <resources>
 
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="android:windowFullscreen">true</item>
     </style>
 
 
@@ -31,6 +32,13 @@
     <style name="RightBottomButton">
         <item name="android:layout_gravity">right|bottom</item>
         <item name="android:layout_marginRight">@dimen/butto_right_margin</item>
+        <item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
+        <item name="android:minWidth">160dp</item>
+    </style>
+
+    <style name="LeftBottomButton">
+        <item name="android:layout_gravity">left|bottom</item>
+        <item name="android:layout_marginLeft">@dimen/butto_right_margin</item>
         <item name="android:layout_marginBottom">@dimen/button_bottom_margin</item>
         <item name="android:minWidth">160dp</item>
     </style>

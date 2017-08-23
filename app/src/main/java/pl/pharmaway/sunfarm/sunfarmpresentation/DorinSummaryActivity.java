@@ -18,9 +18,6 @@ public class DorinSummaryActivity extends MotylActivity {
     private View page_dorin_left_img;
     private View page_dorin_right_img;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

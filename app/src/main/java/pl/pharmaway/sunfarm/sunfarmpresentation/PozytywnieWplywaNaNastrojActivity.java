@@ -20,9 +20,6 @@ public class PozytywnieWplywaNaNastrojActivity extends MotylActivity {
     private View page3_chart_right;
     private View page3_cloud_right;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

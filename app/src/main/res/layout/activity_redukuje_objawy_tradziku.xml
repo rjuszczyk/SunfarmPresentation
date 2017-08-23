@@ -21,28 +21,6 @@
         android:src="@drawable/background_green"
         />
 
-    <View
-        android:layout_width="5dp"
-        android:layout_height="match_parent"
-        android:background="#F00"/>
-
-    <View
-        android:layout_width="5dp"
-        android:layout_height="match_parent"
-        android:layout_gravity="right"
-        android:background="#F00"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:background="#F00"/>
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="5dp"
-        android:layout_gravity="bottom"
-        android:background="#F00"/>
-
     <ImageView
         android:id="@+id/img_motyl_green"
         android:layout_width="wrap_content"
@@ -128,5 +106,17 @@
 
         style="@style/RightBottomButton"
         android:theme="@style/YellowVioletButton"
+        android:layout_marginBottom="80dp"
+        />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:text="@string/button_home"
+
+        style="@style/LeftBottomButton"
+        android:theme="@style/YellowVioletButton"
+        android:layout_marginBottom="80dp"
         />
 </pl.pharmaway.sunfarm.sunfarmpresentation.view.FixedScaledLayout>

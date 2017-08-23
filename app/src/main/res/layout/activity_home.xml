@@ -21,28 +21,6 @@
             android:src="@drawable/background"
             />
 
-        <View
-            android:layout_width="5dp"
-            android:layout_height="match_parent"
-            android:background="#F00"/>
-
-        <View
-            android:layout_width="5dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:background="#F00"/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:background="#F00"/>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="5dp"
-            android:layout_gravity="bottom"
-            android:background="#F00"/>
-
         <ImageView
             android:id="@+id/logo"
             android:layout_width="wrap_content"
@@ -52,6 +30,28 @@
             android:layout_marginTop="40dp"
             android:adjustViewBounds="true"
             android:src="@drawable/logo_page01"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="560dp"
+
+            android:layout_marginTop="460dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_regularne_krwawienie_z_odstawienia"
+            />
+
+        <ImageView
+            android:id="@+id/puzzel_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="885dp"
+
+            android:layout_marginTop="495dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/puzzel_redukcja_objawow_tradziku"
             />
 
         <ImageView
@@ -109,27 +109,7 @@
             android:src="@drawable/puzzel_brak_wplywu_na_mase_ciala"
             />
 
-        <ImageView
-            android:id="@+id/puzzel_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="560dp"
 
-            android:layout_marginTop="460dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/puzzel_regularne_krwawienie_z_odstawienia"
-            />
-
-        <ImageView
-            android:id="@+id/puzzel_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="885dp"
-
-            android:layout_marginTop="495dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/puzzel_redukcja_objawow_tradziku"
-            />
 
         <ImageView
             android:id="@+id/img_motyl"

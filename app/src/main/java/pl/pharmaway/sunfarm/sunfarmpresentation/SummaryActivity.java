@@ -19,9 +19,6 @@ public class SummaryActivity extends MotylActivity {
     private View summary_img_left;
     private View summary_bottom_img;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

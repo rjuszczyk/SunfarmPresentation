@@ -18,9 +18,6 @@ public class RedukujeObjawyBolesnegoMiesiaczkowaniaActivity extends MotylActivit
     private View page4_chart;
     private View page4_cloud;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

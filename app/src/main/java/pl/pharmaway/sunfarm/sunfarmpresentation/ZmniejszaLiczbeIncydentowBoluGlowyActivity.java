@@ -18,9 +18,6 @@ public class ZmniejszaLiczbeIncydentowBoluGlowyActivity extends MotylActivity {
     private View page7_chart;
     private View page7_cloud;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

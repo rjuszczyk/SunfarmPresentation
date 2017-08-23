@@ -17,9 +17,6 @@ public class MadinetteSummaryActivity extends MotylActivity {
 
     private View madinette_center_img;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

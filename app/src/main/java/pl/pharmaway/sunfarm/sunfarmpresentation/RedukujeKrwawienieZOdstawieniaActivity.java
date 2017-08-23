@@ -18,9 +18,6 @@ public class RedukujeKrwawienieZOdstawieniaActivity extends MotylActivity {
     private View page5_chart;
     private View page5_cloud;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

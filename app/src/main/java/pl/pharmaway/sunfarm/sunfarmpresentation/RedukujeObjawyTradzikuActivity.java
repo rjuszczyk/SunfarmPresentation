@@ -18,9 +18,6 @@ public class RedukujeObjawyTradzikuActivity extends MotylActivity {
     private View page8_chart;
     private View page8_cloud;
 
-    final long animationLength = 100;
-    final long animationDuration = 300;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
