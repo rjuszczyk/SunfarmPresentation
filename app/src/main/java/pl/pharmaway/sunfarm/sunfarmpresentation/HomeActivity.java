@@ -46,13 +46,14 @@ public class HomeActivity extends MotylActivity {
             @Override
             public void onClick(final View view) {
 
-                AnimationUtil.animateAlphaOut(puzzel_1, 1 * animationLength, animationDuration);
-                AnimationUtil.animateAlphaOut(puzzel_2, 2 * animationLength, animationDuration);
-                AnimationUtil.animateAlphaOut(puzzel_3, 3 * animationLength, animationDuration);
-                AnimationUtil.animateAlphaOut(puzzel_4, 4 * animationLength, animationDuration);
-                AnimationUtil.animateAlphaOut(puzzel_5, 5 * animationLength, animationDuration);
-                AnimationUtil.animateAlphaOut(puzzel_6, 6 * animationLength, animationDuration);
-                AnimationUtil.animateAlphaOut(puzzel_7, 7 * animationLength, animationDuration, new Runnable() {
+                int leavingAnimationLength = 100;
+                AnimationUtil.animateAlphaOut(puzzel_1, 1 * leavingAnimationLength, animationDuration);
+                AnimationUtil.animateAlphaOut(puzzel_2, 2 * leavingAnimationLength, animationDuration);
+                AnimationUtil.animateAlphaOut(puzzel_3, 3 * leavingAnimationLength, animationDuration);
+                AnimationUtil.animateAlphaOut(puzzel_4, 4 * leavingAnimationLength, animationDuration);
+                AnimationUtil.animateAlphaOut(puzzel_5, 5 * leavingAnimationLength, animationDuration);
+                AnimationUtil.animateAlphaOut(puzzel_6, 6 * leavingAnimationLength, animationDuration);
+                AnimationUtil.animateAlphaOut(puzzel_7, 7 * leavingAnimationLength, animationDuration, new Runnable() {
                     @Override
                     public void run() {
                         switch (view.getId()) {
@@ -92,6 +93,8 @@ public class HomeActivity extends MotylActivity {
         this.puzzel_6.setOnClickListener(firstAnimateClickListener);
         this.puzzel_7.setOnClickListener(firstAnimateClickListener);
     }
+
+    long animationLength = 800;
 
     @Override
     protected void onResume() {

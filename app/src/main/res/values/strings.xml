@@ -29,6 +29,7 @@
     <string name="p8_footer1">Efficacy of a combined oral contraceptive containing 0.030 mg ethinylestradiol/2 mg dienogest for the treatment of papulopustular acne in comparison with placebo and 0.035 mg ethinylestra-</string>
     <string name="p8_footer2">diol/2 mg cyproterone acetate. Palombo-Kinne E, Schellschmidt I, Schumacher U, Gräser T. Contraception. 2009 Apr;79(4):282-9.</string>
 
-    <string name="button_next">Resume</string>
+    <string name="button_resume">Resume</string>
+    <string name="button_next">Dalej</string>
     <string name="button_home">Home</string>
 </resources>

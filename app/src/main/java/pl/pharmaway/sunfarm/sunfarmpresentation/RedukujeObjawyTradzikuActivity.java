@@ -37,7 +37,7 @@ public class RedukujeObjawyTradzikuActivity extends MotylActivity {
     protected void onResume() {
         super.onResume();
         AnimationUtil.animateInFromLeft(this.page8_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page8_cloud, 2 * animationLength, animationDuration);
+        AnimationUtil.animateInFromRight(this.page8_cloud, 4 * animationLength, 4 * animationDuration);
     }
 
     protected void goToNext() {

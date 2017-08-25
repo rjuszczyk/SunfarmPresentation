@@ -35,7 +35,7 @@ public class RegulacjaCykliActivity extends MotylActivity {
     protected void onResume() {
         super.onResume();
         AnimationUtil.animateInFromLeft(this.page2_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page2_cloud, 2 * animationLength, animationDuration);
+        AnimationUtil.animateInFromRight(this.page2_cloud, 4 * animationLength, 4 * animationDuration);
     }
 
     protected void goToNext() {
