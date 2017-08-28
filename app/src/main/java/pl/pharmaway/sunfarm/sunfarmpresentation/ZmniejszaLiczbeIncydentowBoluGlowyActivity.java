@@ -37,7 +37,7 @@ public class ZmniejszaLiczbeIncydentowBoluGlowyActivity extends MotylActivity {
     protected void onResume() {
         super.onResume();
         AnimationUtil.animateInFromLeft(this.page7_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page7_cloud, 4 * animationLength, 4 * animationDuration);
+        AnimationUtil.animateInFromRight(this.page7_cloud, 2 * animationLength, animationDuration);
     }
 
     protected void goToNext() {

@@ -39,9 +39,9 @@ public class PozytywnieWplywaNaNastrojActivity extends MotylActivity {
     protected void onResume() {
         super.onResume();
         AnimationUtil.animateInFromLeft(this.page3_chart_left, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page3_chart_right, 3 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page3_cloud_left, 6 * animationLength, 4 * animationDuration);
-        AnimationUtil.animateInFromRight(this.page3_cloud_right, 10 * animationLength, 4 * animationDuration);
+        AnimationUtil.animateInFromLeft(this.page3_cloud_left, 2 * animationLength, animationDuration);
+        AnimationUtil.animateInFromRight(this.page3_chart_right, 12 * animationLength, animationDuration);
+        AnimationUtil.animateInFromRight(this.page3_cloud_right, 13 * animationLength, animationDuration);
     }
 
     protected void goToNext() {

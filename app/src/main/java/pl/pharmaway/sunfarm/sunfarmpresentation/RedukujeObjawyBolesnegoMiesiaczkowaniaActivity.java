@@ -36,7 +36,7 @@ public class RedukujeObjawyBolesnegoMiesiaczkowaniaActivity extends MotylActivit
     protected void onResume() {
         super.onResume();
         AnimationUtil.animateInFromLeft(this.page4_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page4_cloud, 4 * animationLength, 4 * animationDuration);
+        AnimationUtil.animateInFromRight(this.page4_cloud, 2 * animationLength, animationDuration);
     }
 
     protected void goToNext() {

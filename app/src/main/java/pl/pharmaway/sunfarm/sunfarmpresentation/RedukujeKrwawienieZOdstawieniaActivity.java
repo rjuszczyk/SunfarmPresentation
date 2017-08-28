@@ -37,7 +37,7 @@ public class RedukujeKrwawienieZOdstawieniaActivity extends MotylActivity {
     protected void onResume() {
         super.onResume();
         AnimationUtil.animateInFromLeft(this.page5_chart, 1 * animationLength, animationDuration);
-        AnimationUtil.animateInFromRight(this.page5_cloud, 4 * animationLength, 4 * animationDuration);
+        AnimationUtil.animateInFromRight(this.page5_cloud, 2 * animationLength, animationDuration);
     }
 
     protected void goToNext() {

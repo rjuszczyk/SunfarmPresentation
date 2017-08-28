@@ -17,8 +17,8 @@ public abstract class MotylActivity extends AppCompatActivity {
     private View home;
     private View logo;
 
-    protected long animationLength = 100;
-    protected long animationDuration = 300;
+    protected long animationLength = 1000;//100;
+    protected long animationDuration = 1000;//300;
 
     protected abstract int getLayoutId();
 
@@ -26,6 +26,14 @@ public abstract class MotylActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(getLayoutId());
+
+        getWindow().getDecorView().setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                        | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
 
         this.img_motyl = findViewById(R.id.img_motyl);
         this.img_motyl_green = findViewById(R.id.img_motyl_green);
@@ -82,7 +90,7 @@ public abstract class MotylActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         if(logo != null) {
-            AnimationUtil.animateInFromTop(logo, 0, animationDuration);
+            AnimationUtil.animateInFromTop(logo, 0, animationDuration/2);
         }
     }
 
