@@ -11,9 +11,13 @@
     <string name="p3_octan_chlormadinonu">@string/octan_chlormadinonu</string>
     <string name="p3_footer1">Johannes C. Huber, Marie-Luise S. Heskamp and Georg A.K. Schramm, Effect of an Oral Contraceptive with Chlormadinone Acetate on Depressive Mood Analysis of Data from Four Observational Studies.</string>
 
-    <string name="p4_octan_chlormadinonu">@string/octan_chlormadinonu</string>
-    <string name="p4_footer1">Beier H. M., Beier-Hellwig K. J, Octan chlormadinonu - gestagen podobny do progesteronu o cząstkowym działaniu antyandrogenowym, do stosowania w doustnej antykoncepcji,</string>
-    <string name="p4_footer2">Reproduktionsmed Endokrinol 2004; 1 (2):308-17</string>
+    <!--<string name="p4_octan_chlormadinonu">@string/octan_chlormadinonu</string>-->
+    <string name="p4_octan_chlormadinonu">EE - Ethynyloestriadiol, DNG – Dienogest</string>
+    <string name="p4_footer1">Efficacy of a combined oral contraceptive containing 0.030 mg ethinylestradiol/2 mg dienogest for the treatment of papulopustular acne in comparison with placebo and 0.035 mg ethinylestradiol/
+2 mg cyproterone acetate.</string>
+    <!--<string name="p4_footer1">Beier H. M., Beier-Hellwig K. J, Octan chlormadinonu - gestagen podobny do progesteronu o cząstkowym działaniu antyandrogenowym, do stosowania w doustnej antykoncepcji,</string>-->
+    <!--<string name="p4_footer2">Reproduktionsmed Endokrinol 2004; 1 (2):308-17</string>-->
+    <string name="p4_footer2">Palombo-Kinne E, Schellschmidt I, Schumacher U, Gräser T. Contraception. 2009 Apr;79(4):282-9. </string>
 
     <string name="p5_octan_chlormadinonu">@string/octan_chlormadinonu</string>
     <string name="p5_footer1">Zahradnik et al., Efficacy and Safety of New Antiandrogenic Oral Contraceptive Belara, Contraception, 1998;57:103-109.</string>
