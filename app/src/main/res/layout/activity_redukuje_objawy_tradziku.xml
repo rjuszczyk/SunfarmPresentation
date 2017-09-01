@@ -78,7 +78,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p4_octan_chlormadinonu"
+            android:text="@string/p4_octan_chlormadinonu_tradzik"
             android:textSize="@dimen/footer_text_size"
 
             android:layout_marginBottom="5dp"
@@ -87,13 +87,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p4_footer1"
+            android:text="@string/p4_footer1_tradzik"
             android:textSize="@dimen/footer_text_size"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/p4_footer2"
+            android:text="@string/p4_footer2tradzik"
             android:textSize="@dimen/footer_text_size"
             />
     </LinearLayout>
